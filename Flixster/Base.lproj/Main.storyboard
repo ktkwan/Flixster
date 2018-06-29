@@ -84,6 +84,65 @@
             </objects>
             <point key="canvasLocation" x="1111.2" y="692.20389805097454"/>
         </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="6Th-Dd-gVr">
+            <objects>
+                <tabBarController id="RiZ-7n-rXd" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="eVr-wj-lKH">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W6N-L9-ann" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="397" y="1705"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="gEZ-O5-DP7">
+            <objects>
+                <viewController id="ly5-Gl-NyP" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wjK-iI-wiz">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="iUw-oB-146"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qSY-22-lef" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-238" y="2432"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Kv2-Qa-Nra">
+            <objects>
+                <viewController id="cIP-7G-y7K" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tEE-9b-N0M">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="GIa-5u-Imi"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="t08-39-NZb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="553" y="2432"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ev3-mL-l52">
+            <objects>
+                <viewController id="AWl-b4-XPf" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0XU-C3-eka">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="1V7-Gj-pkX"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TBH-GJ-yan" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1354" y="2432"/>
+        </scene>
         <!--Detail View Controller-->
         <scene sceneID="Tai-BV-Rmm">
             <objects>
