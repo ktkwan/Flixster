@@ -161,10 +161,11 @@
                         <viewLayoutGuide key="safeArea" id="sSj-ym-hEz"/>
                     </view>
                     <connections>
-                        <outlet property="backdropView" destination="2QY-RH-KJJ" id="ueC-BT-Q7N"/>
-                        <outlet property="posterView" destination="7pF-fe-etN" id="EiQ-Ut-I56"/>
-                        <outlet property="synopsisLabel" destination="cna-HY-qsN" id="DX3-4d-kQi"/>
-                        <outlet property="titleLabel" destination="jZR-e1-eQ3" id="DUy-LJ-KSJ"/>
+                        <outlet property="backdropView" destination="2QY-RH-KJJ" id="9sQ-p9-IwQ"/>
+                        <outlet property="posterView" destination="7pF-fe-etN" id="NaP-q5-pwW"/>
+                        <outlet property="scollView" destination="roz-sn-86Y" id="WY9-LA-7XZ"/>
+                        <outlet property="synopsisLabel" destination="cna-HY-qsN" id="cXp-LZ-GPB"/>
+                        <outlet property="titleLabel" destination="jZR-e1-eQ3" id="tVr-cx-24I"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bH3-Cy-6z4" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -205,6 +206,7 @@
                                         </view>
                                         <connections>
                                             <outlet property="posterView" destination="fpd-fU-RM2" id="vAO-6Y-4ni"/>
+                                            <segue destination="Y5T-sh-HqF" kind="show" id="BdX-cs-CHF"/>
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
@@ -242,4 +244,7 @@
             <point key="canvasLocation" x="-20" y="675"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="BdX-cs-CHF"/>
+    </inferredMetricsTieBreakers>
 </document>

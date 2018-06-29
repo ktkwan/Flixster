@@ -68,6 +68,8 @@
             [self.activityIndicator stopAnimating];
                 
             }
+            
+        
             //these are blocks ^^
             //the lines inside the block are what is called once the network call is finished
             
@@ -132,6 +134,9 @@
     NSDictionary *movie = self.movies[indexPath.row];
     DetailViewController *detailViewController = [segue destinationViewController];
     detailViewController.movie = movie;
+    
+    
+    
     
 }
 
