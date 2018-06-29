@@ -24,9 +24,14 @@
                                 <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <color key="sectionIndexColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="sectionIndexBackgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <searchBar key="tableHeaderView" contentMode="redraw" id="uOA-Jf-Xog">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                    <textInputTraits key="textInputTraits"/>
+                                </searchBar>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="MovieCell" rowHeight="193" id="s28-ws-SXa" customClass="MovieCell">
-                                        <rect key="frame" x="0.0" y="28" width="375" height="193"/>
+                                        <rect key="frame" x="0.0" y="72" width="375" height="193"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="s28-ws-SXa" id="Dzh-Xf-sSS">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="192.5"/>
@@ -77,6 +82,7 @@
                     <navigationItem key="navigationItem" title="Movies" id="soC-9o-HG9"/>
                     <connections>
                         <outlet property="activityIndicator" destination="I0i-2c-Cdr" id="dbp-1h-AzK"/>
+                        <outlet property="searchBar" destination="uOA-Jf-Xog" id="hGB-SH-Cts"/>
                         <outlet property="tableView" destination="fYJ-Bl-wvj" id="grf-qy-54I"/>
                     </connections>
                 </viewController>
@@ -84,11 +90,11 @@
             </objects>
             <point key="canvasLocation" x="-20" y="1345"/>
         </scene>
-        <!--Item-->
+        <!--Collection-->
         <scene sceneID="k99-Oi-Tz2">
             <objects>
-                <navigationController id="4NS-fo-G7s" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="yqi-Cj-s4x"/>
+                <navigationController id="4NS-fo-G7s" userLabel="Collection" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Collection" image="projector_tabbar_item" id="yqi-Cj-s4x" userLabel="Collection"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="dx5-gp-KON">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -109,6 +115,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="barTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
                         <segue destination="E4A-9r-43a" kind="relationship" relationship="viewControllers" id="2bM-aE-NNE"/>
@@ -228,7 +235,7 @@
         <scene sceneID="0Mk-fF-XiS">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="E4A-9r-43a" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Now Playing" id="iS3-Dd-Wsl"/>
+                    <tabBarItem key="tabBarItem" title="Now Playing" image="now_playing_tabbar_item" id="iS3-Dd-Wsl"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="4yD-oy-C7C">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
@@ -244,7 +251,11 @@
             <point key="canvasLocation" x="-20" y="675"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="now_playing_tabbar_item" width="21" height="21"/>
+        <image name="projector_tabbar_item" width="21" height="25"/>
+    </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="BdX-cs-CHF"/>
+        <segue reference="9qG-Fa-uCY"/>
     </inferredMetricsTieBreakers>
 </document>
