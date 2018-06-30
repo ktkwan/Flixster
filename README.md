@@ -2,7 +2,7 @@ etd# Project 2 - *Name of App Here*
 
 **Flixster** is a movies app using the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
 
-Time spent: **11** hours spent in total
+Time spent: **15** hours spent in total
 
 ## User Stories
 
@@ -37,7 +37,12 @@ Please list two areas of the assignment you'd like to **discuss further with you
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
+<<<<<<< HEAD
 <img src='/FLIX.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+=======
+
+<img src='https://i.imgur.com/pt60Blj.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+>>>>>>> 1db74ae6b82631e64daa691200c50cce60e02e95
 
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
